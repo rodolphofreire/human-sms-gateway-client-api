@@ -1,0 +1,25 @@
+{
+    "name": "camcima/human-sms-gateway-client-api",
+    "type": "library",
+    "description": "Human SMS Gateway Client API",
+    "keywords": ["human", "mobile", "sms", "gateway", "client", "api"],
+    "homepage": "https://github.com/camcima/human-sms-gateway-client-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Cima",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "kriswallsmith/buzz": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "HumanSms": "src/",
+            "HumanSmsTests": "tests/"
+        }
+    }
+}

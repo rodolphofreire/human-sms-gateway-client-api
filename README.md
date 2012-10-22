@@ -1,4 +1,4 @@
-human-sms-gateway-client-api
-============================
+human_gateway_client_api
+========================
 
 Human SMS Gateway PHP API
