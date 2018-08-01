@@ -4,7 +4,7 @@ namespace HumanSms;
 
 class Client
 {
-    const URL_SINGLE_SMS = 'http://system.human.com.br/GatewayIntegration/msgSms.do';
+    const URL_SINGLE_SMS = 'https://api-http.zenvia.com/GatewayIntegration/msgSms.do';
 
     protected $account;
     protected $code;
